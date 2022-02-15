@@ -1,0 +1,11 @@
+{
+  "name": "projetcalculatrice",
+  "version": "1.0.0",
+  "description": "Projet de calculatrice",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./style/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
