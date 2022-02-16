@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="./script/script.js"></script>
     <link rel="stylesheet" href="./style/style.css">
     <title>Calculatrice - FrontCodeLover</title>
 </head>
 <body>
-    <div class="container">
+    <div class="cercle"></div>
+    <div class="container center-screen">
         <div class="center">
             <div class="calBody">
-           <button>9</button>
-           <button>8</button>
-           <button>7</button>
-           <button>DEL</button>
-           <button>6</button>
-           <button>5</button>
-           <button>4</button>
-           <button>+</button>
-           <button>3</button>
-           <button>2</button>
-           <button>1</button>
-           <button>-</button>
-           <button>.</button>
-           <button>0</button>
-           <button>/</button>
-           <button>x</button>
-           <button>RESET</button>
-           <button>=</button>
-        </div>
+                <div class="display-screen">
+                 
+                    <div id="output">0</div>
 
+                </div>
+                <div class="row-1">
+                <button id="calc9" value=9 onclick="getValue('9');">9</button>
+                <button id="calc8" value="8" onclick="getValue('8');">8</button>
+                <button id="calc7" value="7" onclick="getValue(7);">7</button>
+                <button id="calcDel" value="del" onclick="clearCalc();">DEL</button>
+                </div>
+                <div class="row-2">
+                <button id="calc6" value="6" onclick="getValue(6);">6</button>
+                <button id="calc5" value="5" onclick="getValue(5);">5</button>
+                <button id="calc4" value="4" onclick="getValue(4);">4</button>
+                <button id="calcAddition" value="+" onclick="getValue('+');">+</button>
+                </div>
+                <div class="row-3">
+                <button id="calc3" value="3" onclick="getValue(3);">3</button>
+                <button id="calc2" value="2" onclick="getValue(2);">2</button>
+                <button id="calc1" value="1" onclick="getValue(1);">1</button>
+                <button id="calcMoins" value="-" onclick="getValue('-');">-</button>
+                </div>
+                <div class="row-4">
+                <button id="calcFloat" value="." onclick="getValue('.');">.</button>
+                <button id="calc0" value="0" onclick="getValue(0);">0</button>
+                <button id="calcDivision" value="/" onclick="getValue('/');">/</button>
+                <button id="calcMultiplication" value="*" onclick="getValue('*');">x</button>
+                </div>
+                <button class="special-button" onclick="magie()">MAGIC</button>
+                <button class="special-button egal" onclick="resultat()">=</button>
+            </div>
+            
         </div>
     </div>
     
 </body>
+<script type="text/javascript" src="./script/script.js"></script>
 </html>
