@@ -2,6 +2,10 @@
   background-color: black;
 }
 
+button {
+  background-color: white;
+}
+
 .container {
   position: relative;
 }
