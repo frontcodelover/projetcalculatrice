@@ -26,9 +26,10 @@ function clearCalc() {
 
 function magie() {
     const magie = document.querySelector(".center");
-    magie.style.transform = "rotate(180deg)";
     magie.style.transition = "transform .8s ease-in-out"
+    magie.classList.toggle("rotatemage");
 }
+
 
 
   // affichage curseur en rond

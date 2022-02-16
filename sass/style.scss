@@ -87,3 +87,7 @@ button:active{
     box-shadow: #00000070 5px 5px 15px inset, #ffffff70 -3px -3px 13px inset;
     border-radius: 8px;
 }
+
+.rotatemage {
+    transform: rotate(180deg);
+}

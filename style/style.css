@@ -89,4 +89,8 @@ button:active {
   border-radius: 8px;
 }
 
+.rotatemage {
+  transform: rotate(180deg);
+}
+
 /*# sourceMappingURL=style.css.map */
